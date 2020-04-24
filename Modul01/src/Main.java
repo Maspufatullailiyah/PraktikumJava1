@@ -11,6 +11,10 @@ public class Main{
         boolean imut = true;
 
         System.out.println(namaDepan + namaTengah + namaBelakang);
+
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
+                System.out.println(uniskaString);
     }
 }
 
